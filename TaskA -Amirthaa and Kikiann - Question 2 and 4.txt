@@ -1,0 +1,21 @@
+Question 2:
+For this sensor I would suggest using the third model y=ax^3 + bx^2 + cx + d. If you take a look at the graphs and R2_score you can see that in the third graph the regression line is going through all the points. The R2_score for this model is also the closest to number 1. The R2_score is 0.9998. For the other models the regression line does not completely go through all the scatter points. Also the R2_score is not as close to 1.
+
+Question 4:
+a. The r values are: 
+    r = 5
+    r = 15
+    r = 25
+    r = 35
+    r = 45
+    4 = 55
+b. In order to be able to perform a face recognition I would suggest to use r = 35 or r= 45. The more values are used the more you get to the original photo. But with r = 35 it is possible to recognize the people on the photo.
+c. In order to only recognize black and bright spots in the picture, I would choose r = 5. With this value you can barely recognize the forms on the picture, but you can recogzine the black and bright spots.
+d. To be able to recognize forms in the picture, I would use r = 15. With this value it is possible to recognize the forms in the picture, in this case people. 
+e. Other methods that can be used to perform image compression without losing too much information are:
+    - Fractal compression
+    - RLE (Run- Length Encoding)
+    - DCT (Discrete Cosine Transform)
+    - Chain code
+    - Chroma subsampling
+    - Reducing the color space to the most common colors on the image.
